@@ -1,0 +1,12 @@
+
+
+.ui.inverted.header {
+margin-top: 1px;
+margin-bottom: 3px;
+}
+#footer {
+	position: relative;
+	bottom: 0;
+	width: auto;
+	background-color: #CCCCCC;
+} 
