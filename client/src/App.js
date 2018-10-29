@@ -11,7 +11,7 @@ import Home from './pages/Home/Home';
 import Resume from './pages/Resume/Resume';
 import Contact from './pages/Contact/Contact';
 import SocialSideNav from './components/SocialSideNav/SocialSideNav';
-import PortfolioFeatures from './components/PortfolioFeatures';
+
 import "./App.css";
 
 
@@ -26,8 +26,6 @@ const App = () => (
           <Route path='/portfolio' component={Portfolio} />
           <Route path='/resume' component={Resume} />
           <Route path='/contact' component={Contact} />
-          <Route path='/feature_films' component={PortfolioFeatures} />
-
 
       </Switch>
 

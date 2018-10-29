@@ -1,11 +1,10 @@
 import React from "react";
-import { Menu, Grid, Container, Segment, Divider, Image, Button, Table, Label, Icon } from 'semantic-ui-react'
-import {Link} from 'react-router-dom';
+import { Grid, Container, Segment, Image } from 'semantic-ui-react';
 import "./Home.css";
 
 
 
-{/* MAIN BODY*/}  
+/* MAIN BODY*/ 
 
 class Home extends React.Component {
   handleClick = (event) => {
@@ -21,7 +20,7 @@ class Home extends React.Component {
      <Segment textAlign ="center">
      <Container>
     <Image id="robinCircleLeft" src={require('../../assets/images/BertuccelliRobin3Circle2.png')}  floated='left' size='medium' alt='Robin Bertuccelli' />
-    <span class="overlay">My Name is John</span>
+    <span className="overlay">My Name is John</span>
     </Container>
     <h2>
       Hello and thanks for stopping by. I am a Full Stack Developer with 12 years experience creating media for multiple platforms. I prefer
@@ -42,53 +41,53 @@ class Home extends React.Component {
     
       <Grid.Row>
         <Grid.Column>
-           <a href="https://www.w3.org/TR/html52/" target="_blank" className="nav-link"> <Image src={require('../../assets/images/icons/html5.png')}  alt="HTML5 Logo" size='tiny' /> </a> 
+           <a href="https://www.w3.org/TR/html52/"  rel="noreferrer noopener" target="_blank" className="nav-link"> <Image src={require('../../assets/images/icons/html5.png')}  alt="HTML5 Logo" size='tiny' /> </a> 
         </Grid.Column>
 
         <Grid.Column> 
-          <a href="https://www.w3.org/Style/CSS/" target="_blank" className="nav-link"> <Image src={require('../../assets/images/icons/css3.png')}  alt="CSS3 Logo" size='tiny' /> </a> 
+          <a href="https://www.w3.org/Style/CSS/" rel="noreferrer noopener" target="_blank" className="nav-link"> <Image src={require('../../assets/images/icons/css3.png')}  alt="CSS3 Logo" size='tiny' /> </a> 
         </Grid.Column>
 
         <Grid.Column>
-          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" className="nav-link"> <Image src={require('../../assets/images/icons/javascript.png')}  alt="Javascript Logo" size='tiny' /> </a> 
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" rel="noreferrer noopener" target="_blank" className="nav-link"> <Image src={require('../../assets/images/icons/javascript.png')}  alt="Javascript Logo" size='tiny' /> </a> 
         </Grid.Column>
       
         <Grid.Column>
-        <a href="https://jquery.com/" target="_blank" className="nav-link"> <Image src={require('../../assets/images/icons/jquery.png')}  alt="JQuery Logo" size='tiny' /> </a> 
+        <a href="https://jquery.com/" rel="noreferrer noopener" target="_blank" className="nav-link"> <Image src={require('../../assets/images/icons/jquery.png')}  alt="JQuery Logo" size='tiny' /> </a> 
         </Grid.Column>
 
         <Grid.Column>
-        <a href="https://dev.mysql.com/doc/" target="blank" className="nav-link"> <Image src={require('../../assets/images/icons/mysql.png')} alt="MySQL Logo" size='tiny' /> </a>
+        <a href="https://dev.mysql.com/doc/" rel="noreferrer noopener" target="blank" className="nav-link"> <Image src={require('../../assets/images/icons/mysql.png')} alt="MySQL Logo" size='tiny' /> </a>
         </Grid.Column>
 
         <Grid.Column>
-        <a href="https://www.mongodb.com/" target="blank" className="nav-link"> <Image src={require('../../assets/images/icons/mongo.jpg')} alt="MongoDB Logo" size='tiny' /> </a>
+        <a href="https://www.mongodb.com/" rel="noreferrer noopener" target="blank" className="nav-link"> <Image src={require('../../assets/images/icons/mongo.jpg')} alt="MongoDB Logo" size='tiny' /> </a>
         </Grid.Column>
       </Grid.Row>
 
       <Grid.Row>
         <Grid.Column> 
-        <a href="https://nodejs.org" target="blank" className="nav-link"> <Image src={require('../../assets/images/icons/node_js.png')} alt="NodeJS Logo" size='tiny' /> </a>
+        <a href="https://nodejs.org" rel="noreferrer noopener" target="blank" className="nav-link"> <Image src={require('../../assets/images/icons/node_js.png')} alt="NodeJS Logo" size='tiny' /> </a>
         </Grid.Column>
 
         <Grid.Column>
-        <a href="https://reactjs.org/" target="blank" className="nav-link"> <Image src={require('../../assets/images/icons/react.png')} alt="React Logo" size='tiny' /> </a>
+        <a href="https://reactjs.org/" rel="noreferrer noopener" target="blank" className="nav-link"> <Image src={require('../../assets/images/icons/react.png')} alt="React Logo" size='tiny' /> </a>
         </Grid.Column>
 
         <Grid.Column>
-        <a href="http://www.drupal.com/" target="blank" className="nav-link"> <Image src={require('../../assets/images/icons/drupal.png')} alt="Drupal Logo" size='tiny' /> </a>
+        <a href="http://www.drupal.com/" rel="noreferrer noopener" target="blank" className="nav-link"> <Image src={require('../../assets/images/icons/drupal.png')} alt="Drupal Logo" size='tiny' /> </a>
         </Grid.Column>
 
         <Grid.Column>
-        <a href="https://expressjs.com/" target="blank" className="nav-link"> <Image src={require('../../assets/images/icons/expressjs.png')} alt="Express Logo" size='tiny' /> </a>
+        <a href="https://expressjs.com/" rel="noreferrer noopener" target="blank" className="nav-link"> <Image src={require('../../assets/images/icons/expressjs.png')} alt="Express Logo" size='tiny' /> </a>
         </Grid.Column>
 
         <Grid.Column>
-        <a href="https://handlebarsjs.com/" target="blank" className="nav-link"> <Image src={require('../../assets/images/icons/handlebars.png')} alt="Express Logo" size='tiny' /> </a>
+        <a href="https://handlebarsjs.com/" rel="noreferrer noopener" target="blank" className="nav-link"> <Image src={require('../../assets/images/icons/handlebars.png')} alt="Express Logo" size='tiny' /> </a>
         </Grid.Column>
 
         <Grid.Column>
-        <a href="https://react.semantic-ui.com/" target="blank" className="nav-link"> <Image src={require('../../assets/images/icons/semanticUI.png')} alt="Express Logo" size='tiny' /> </a>
+        <a href="https://react.semantic-ui.com/" rel="noreferrer noopener" target="blank" className="nav-link"> <Image src={require('../../assets/images/icons/semanticUI.png')} alt="Express Logo" size='tiny' /> </a>
         </Grid.Column>
 
 

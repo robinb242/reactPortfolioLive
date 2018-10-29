@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
-import _ from 'lodash';
 import {Document, Page} from 'react-pdf/dist/entry.noworker';
 import 'react-pdf/dist/Page/AnnotationLayer.css';
-import { render } from 'react-dom';
-import {
-    Container, Message, Header, Image
-} from 'semantic-ui-react';
 import "./Resume.css";
 
 

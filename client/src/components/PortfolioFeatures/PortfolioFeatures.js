@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import _ from 'lodash'
+import React from 'react';
 // import './Candidate.css';
 import {
 Container,  Grid, Image, Card, Segment
@@ -18,7 +17,7 @@ const PortfolioFeatures =() => (
 
                 <Grid.Column>
                     <Card id="profileCard">
-                       <Image src={require('../../assets/images/profile200.png')} size="medium" href="https://www.youtube.com/watch?v=2zEgzlin07M" target="_blank" alt="Profile of a Killer"/>
+                       <Image src={require('../../assets/images/profile200.png')} size="medium" href="https://www.youtube.com/watch?v=2zEgzlin07M" rel="noreferrer noopener" target="_blank" alt="Profile of a Killer"/>
                         <h5>Profile Of A Killer</h5>
                        <p>First Assistant Director. Written and directed by Caspian Tredwell-Owen.
                         The FBI tracks down a 16 year old serial killer.</p>
@@ -27,7 +26,7 @@ const PortfolioFeatures =() => (
 
                      <Grid.Column>
                      <Card id="intoTemptationCard">
-                         <Image src={require('../../assets/images/intoTemptation.png')} size="medium" href="https://www.youtube.com/watch?v=AOwy16r4FKI" target="_blank" alt="Into Temptation" />
+                         <Image src={require('../../assets/images/intoTemptation.png')} size="medium" href="https://www.youtube.com/watch?v=AOwy16r4FKI" rel="noreferrer noopener" target="_blank" alt="Into Temptation" />
                         <h3>Into Temptation
                         </h3>
                         <p>Second Assistant Director: The first feature length film I worked on. Starring Jeremy Sisto and Kristin Chenoweth.
@@ -40,7 +39,7 @@ const PortfolioFeatures =() => (
 
                 <Grid.Column>
                     <Card id="publicDomainCard">
-                       <Image src={require('../../assets/images/publicDomain.png')} size="medium" href="http://www.dailymotion.com/video/x5afyer" target="_blank" alt="The Public Domain"/>
+                       <Image src={require('../../assets/images/publicDomain.png')} size="medium" href="http://www.dailymotion.com/video/x5afyer" rel="noreferrer noopener" target="_blank" alt="The Public Domain"/>
                         <h3>The Public Domain
                         </h3>
                         <p>First Assistant Director: The second film I made with Patrick Coyle. Staring an ensemble cast featuring Emily Bridges.</p>
@@ -49,7 +48,7 @@ const PortfolioFeatures =() => (
 
                      <Grid.Column>
                         <Card id="jingleDressCard">
-                         <Image src={require('../../assets/images/jingleDress2.png')} size="medium" href="https://www.youtube.com/watch?v=JdASEjOjJCU" target="_blank" alt="The Jingle Dress"/>
+                         <Image src={require('../../assets/images/jingleDress2.png')} size="medium" href="https://www.youtube.com/watch?v=JdASEjOjJCU" rel="noreferrer noopener" target="_blank" alt="The Jingle Dress"/>
                         <h3>The Jingle Dress
                         </h3>
                         <p>First Assistant Director: A film partially financed by a Minnesota State Arts and Culture Grant. Explores the Native American experience
