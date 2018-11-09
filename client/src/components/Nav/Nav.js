@@ -24,58 +24,13 @@ export default class Nav extends Component {
 
         <Link to="/" className="nav-link">  Home </Link> 
            </Menu.Item> 
-
-    <Dropdown.Menu>
-        <Dropdown.Item name="portfolio">
-          <Dropdown text='Portfolio'>
-            <Dropdown.Menu>
-
-            <Dropdown.Item 
-              name='portfolio'
-              active={activeItem === 'portfolio'}
-              onClick={this.handleItemClick}>
-              <Link to="/portfolio" className="nav-link"> All Portfolio </Link>
-              </Dropdown.Item>
-
-              <Dropdown.Item 
-                name='web-applications'
-                active={activeItem === 'web_applications'}
-                onClick={this.handleItemClick}>
-                <Link to="/web_applications" className="nav-link"> Web Applications </Link>
-              </Dropdown.Item>
-
-              <Dropdown.Item 
-                name='feature_films'
-                active={activeItem === 'feature_films'}
-                onClick={this.handleItemClick}>
-                <Link to="/feature_films" className="nav-link"> Feature Films</Link>
-              </Dropdown.Item>
-
-              <Dropdown.Item 
-                name='music_videos'
-                active={activeItem === 'music_videos'}
-                onClick={this.handleItemClick}>
-                <Link to="/music_videos" className="nav-link"> Music Videos </Link>
-              </Dropdown.Item>
-
-              <Dropdown.Item 
-              name='short_films'
-              active={activeItem === 'short_films'}
-              onClick={this.handleItemClick}>
-              <Link to="/short_films" className="nav-link"> Short Films </Link>
-              </Dropdown.Item>
-
-              <Dropdown.Item 
-              name='broadcast'
-              active={activeItem === 'broadcast'}
-              onClick={this.handleItemClick}>
-              <Link to="/broadcast" className="nav-link"> Broadcast </Link>
-              </Dropdown.Item>
-            </Dropdown.Menu>
-          </Dropdown>
-        </Dropdown.Item>
-    </Dropdown.Menu>
-  
+      
+      <Menu.Item
+      name='portfolio'
+      active={activeItem ==='portfolio'}
+      onClick={this.handleItemClick}>
+      <Link to='/portfolio' className='nav-link'> Portfolio </Link>
+      </Menu.Item>
 
         <Menu.Item 
         name='resume' 
